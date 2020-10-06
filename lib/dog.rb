@@ -71,7 +71,7 @@ class Dog
       new_dog = self.create(name: name, breed: breed, id: id)
     end
     new_dog
-  
+  binding.pry
   end
   
 end
