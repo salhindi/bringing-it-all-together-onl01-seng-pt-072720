@@ -84,4 +84,7 @@ class Dog
     DB[:conn].execute(sql, name).map{|row| self.new_from_db(row)}.first
   end
   
+  def update 
+    
+  
 end
