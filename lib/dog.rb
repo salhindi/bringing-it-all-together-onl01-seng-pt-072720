@@ -70,7 +70,7 @@ class Dog
     else
       new_dog = self.create(name: name, breed: breed)
     end
-    new_dog
+    new_dog.find_by_id(id)
   end
   
 end
