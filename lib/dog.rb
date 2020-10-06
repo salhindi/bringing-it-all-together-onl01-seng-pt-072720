@@ -68,9 +68,9 @@ class Dog
     if dog
       new_dog = self.new_from_db(dog)
     else
-      new_dog = self.create(name: name, breed: breed)
+      new_dog = self.create(name: name, breed: breed, id: id)
     end
-    new_dog.find_by_id
+    new_dog
   end
   
 end
